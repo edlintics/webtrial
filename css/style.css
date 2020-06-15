@@ -330,7 +330,7 @@ input[type=text] {
     font-size: 10px;
     font-weight: 500;
     color: #fff;
-    background: #ed2a26;
+    background: #000;
     overflow: hidden;
     width: 5px;
     height: 5px;
@@ -398,7 +398,7 @@ header {
 }
 
 .top-logo{
-	width: 100%;
+	width: 60%;
 }
 
 
@@ -493,7 +493,7 @@ i.icon1 {
     background: #000;
     padding: 9px 15px;
     border-radius: 25px;
-	margin-right: 10px;
+		margin-right: 10px;
 }
 
 .upload_btn i {
@@ -699,6 +699,11 @@ i.icon1 {
 	/* This is what makes the background image rescale based
 		 on the container's size */
 	background-size: cover;
+}
+
+.sidebar--icon {
+	margin: auto;
+    padding: 10px;
 }
 .wrapper {
 	padding: 90px 0 0;
@@ -1140,7 +1145,7 @@ i.icon1 {
 
 .crse_reviews {
     color: #fff;
-    background: #fdcc0d;
+    background: #969594;
     display: inline-block;
     padding: 3px 15px 3px 10px;
     border-radius: 20px;
@@ -1158,7 +1163,7 @@ i.icon1 {
     font-size: 10px;
     position: absolute;
     padding: 2px 10px;
-    background: #fa8305;
+    background: #969594;
     border: none;
     color: #fff;
     font-family: 'Roboto', sans-serif;
@@ -1916,7 +1921,7 @@ i.icon1 {
     border-radius: 20px;
     color: #fff;
     font-family: 'Roboto', sans-serif;
-    background: #ed2a26;
+    background: #000;
     font-size: 14px;
     font-weight: 500;
     display: inline-block;
@@ -1924,7 +1929,7 @@ i.icon1 {
 
 .btn1542:hover {
     color: #fff !important;
-    background: #c72127;
+    background: #efefef;
 }
 
 .lng_btn {
@@ -1967,7 +1972,7 @@ i.icon1 {
 }
 
 .footer_logo img {
-    width: 30px;
+  width: 30px;
 	margin-right: 20px;
 }
 
@@ -2463,11 +2468,11 @@ i.icon1 {
 }
 
 .ui.toggle._1457s2.checkbox input:checked~.box:before, .ui.toggle._1457s2.checkbox input:checked~label:before {
-    background-color: #ed2a26 !important;
+    background-color: #fff !important;
 }
 
 .ui.toggle._1457s2.checkbox input:focus:checked~.box:before, .ui.toggle._1457s2.checkbox input:focus:checked~label:before {
-    background-color: #ed2a26 !important;
+    background-color: #fff !important;
 }
 
 ._1457s2 label {
@@ -5827,7 +5832,7 @@ a.rmv-btn i {
 
 .ui.checkbox.mncheck input:checked~.box:after, .ui.checkbox.mncheck input:checked~label:after {
     opacity: 1;
-    color: #ed2a26 !important;
+    color: #000 !important;
 	font-size: 10px !important;
 	border-radius: 100%;
 	margin-top: 0;
@@ -5840,13 +5845,17 @@ a.rmv-btn i {
 	margin-top: 1px;
 }
 
+.login-logo{
+	width: 100%;
+}
+
 .login-btn {
 	font-size: 14px;
     margin-top: 30px;
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
     color: #fff;
-    background: #ed2a26;
+    background: #000;
     border-radius: 20px;
     text-align: center;
 	border: 0;
@@ -5901,7 +5910,7 @@ a.rmv-btn i {
 }
 
 .sgntrm145 a {
-    color: #ed2a26;
+    color: #000;
 }
 
 .sgntrm145 a:hover {
@@ -5910,7 +5919,7 @@ a.rmv-btn i {
 }
 
 .hvsng145 a {
-    color: #ed2a26;
+    color: #000;
 }
 
 .hvsng145 a:hover {
@@ -7291,11 +7300,11 @@ a.rmv-btn i {
 
 .ui.checkbox input:checked~.box:before, .ui.checkbox input:checked~label:before {
     background: #fff;
-    border-color: #ed2a26 !important;
+    border-color: #000 !important;
 }
 
 .ui.radio.checkbox input:checked~.box:after, .ui.radio.checkbox input:checked~label:after {
-    background-color: #ed2a26 !important;
+    background-color: #000 !important;
 }
 
 .sign_form p {
@@ -7326,7 +7335,7 @@ a.rmv-btn i {
 }
 
 .sgntrm145 a {
-    color: #ed2a26;
+    color: #000;
 }
 
 .questrm145 {
