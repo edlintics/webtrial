@@ -669,6 +669,7 @@ i.icon1 {
 
 /*--- Index Homepage ---*/
 
+/* title section */
 .title {
 	padding: 10% 7%;
 
@@ -682,24 +683,14 @@ i.icon1 {
 
 }
 
-.title-background {
-	/* Location of the image */
-	background-image: url(/Users/hoangtruong/Desktop/EdlinticsWeb/HTML/Main/images/background-title-image.jpeg);
-
-	/* Background image is centered vertically and horizontally at all times */
-	background-position: center center;
-
-	/* Background image doesn't tile */
-	background-repeat: no-repeat;
-
-	/* Background image is fixed in the viewport so that it doesn't move when
-		 the content's height is greater than the image's height */
-	background-attachment: fixed;
-
-	/* This is what makes the background image rescale based
-		 on the container's size */
-	background-size: cover;
+.titlediv {
+	padding: 7% 5%;
 }
+
+.infomational-containter {
+	padding: 10% 20%;
+}
+
 
 .sidebar--icon {
 	margin: auto;
@@ -715,6 +706,8 @@ i.icon1 {
 	display: block;
 	clear: both;
 }
+
+
 
 .section3125 {
     float: left;
@@ -759,6 +752,10 @@ i.icon1 {
 	background-position: center;
     background-repeat: no-repeat;
 	background: rgba(51,1,51, 0.1);
+}
+
+.email-input {
+	align-items: center:
 }
 
 .stream_bg {
@@ -2235,7 +2232,7 @@ i.icon1 {
 	float: left;
 }
 
-.subscribe-btn {
+.booking-btn {
     border: 0;
     background: #ed2a26;
     padding: 0 20px;
@@ -2247,15 +2244,15 @@ i.icon1 {
     font-size: 14px;
 }
 
-.subscribe-btn:active {
+.booking-btn:active {
   outline: none;
 }
 
-.subscribe-btn:visited {
+.booking-btn:visited {
   outline: none;
 }
 
-.Subscribed-btn {
+.bookingd-btn {
   background: #c72127 !important;
   color: white;
 }
@@ -2713,7 +2710,7 @@ i.icon2 {
     background-color: transparent !important;
     border-color: inherit !important;
 	border-top: 0 !important;
-	border-bottom: 2px solid #ed2a26 !important;
+	border-bottom: 2px solid #000 !important;
 	border-left: 0 !important;
 	border-right: 0 !important;
 }
@@ -3794,6 +3791,30 @@ i.icon2 {
 
 /* --- Categories Page --- */
 
+.categories-item{
+	margin: 10px;
+}
+.caption-1 figcaption {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.caption-2 figcaption {
+  width: 80%;
+  position: absolute;
+  bottom: 1rem;
+  left: 10%;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.caption-3 figcaption {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translateY(-50%);
+}
+
 ._1frstcate {
     width: 100%;
 }
@@ -3855,6 +3876,11 @@ i.icon2 {
     text-align: left;
     font-weight: 400;
 }
+
+
+
+
+/* Praclintics */
 
 /* --- History Page --- */
 
@@ -4817,9 +4843,12 @@ a.rmv-btn i {
 }
 
 ._215td5 {
+	line-height: 2;
 	padding: 62px 0;
 	float: left;
 	width: 100%;
+	background-color: #b8c6db;
+background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
 }
 
 .title589 h2 {
@@ -4840,7 +4869,7 @@ a.rmv-btn i {
 	text-align: center;
 	color: #686f7a;
 	line-height: 26px;
-	padding: 0 300px;
+	padding: 0 100px;
 }
 
 .p__metric {

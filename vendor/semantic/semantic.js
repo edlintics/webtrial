@@ -21426,7 +21426,7 @@ $.fn.visibility = function(parameters) {
               });
             }
           },
-          // subscribes to scrollchange
+          // Bookings to scrollchange
           scrollchange: function(event, scrollPosition) {
             module.checkVisibility(scrollPosition);
           },

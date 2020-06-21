@@ -1644,7 +1644,7 @@ if (barX !== null) {
       ],
       datasets: [
         {
-          label: "Subscribe",
+          label: "booking",
           data: [6, 3, 4, 3, 6, 9, 4, 8, 9, 5, 8, 3, 4],
           // data: [6, 3, 4, 3, 6, 9, 4, 8, 9, 5, 8, 3, 4],
           backgroundColor: "#ed2a26"

@@ -2254,12 +2254,12 @@
     }
   }
 
-  function invokeCallback(subscriber) {
-    var owner = subscriber.owner;
+  function invokeCallback(bookingr) {
+    var owner = bookingr.owner;
     var settled = owner._state;
     var value = owner._data;
-    var callback = subscriber[settled];
-    var promise = subscriber.then;
+    var callback = bookingr[settled];
+    var promise = bookingr.then;
 
     if (typeof callback === 'function') {
       settled = FULFILLED;
@@ -2393,7 +2393,7 @@
     _data: undefined,
     _handled: false,
     then: function then(onFulfillment, onRejection) {
-      var subscriber = {
+      var bookingr = {
         owner: this,
         then: new this.constructor(NOOP),
         fulfilled: onFulfillment,
@@ -2410,13 +2410,13 @@
 
       if (this._state === FULFILLED || this._state === REJECTED) {
         // already resolved, call callback async
-        asyncCall(invokeCallback, subscriber);
+        asyncCall(invokeCallback, bookingr);
       } else {
-        // subscribe
-        this._then.push(subscriber);
+        // booking
+        this._then.push(bookingr);
       }
 
-      return subscriber.then;
+      return bookingr.then;
     },
     catch: function _catch(onRejection) {
       return this.then(null, onRejection);

@@ -2292,7 +2292,7 @@ Night Mood
 .night-mode .post .post-state-details * img {
     border-color:#08090f
 }
-.night-mode .btn-subscribe .button:before ,
+.night-mode .btn-booking .button:before ,
 .night-mode .post-comment-text::before{
     border-right-color: #201f23;
 }
